@@ -8,6 +8,7 @@ import Main from "./components/Main/Main.jsx";
 import Order from "./components/Order/Order.jsx";
 import Inventory from "./components/Inventory/Inventory.jsx";
 import LoginPage from "./components/LoginPage/LoginPage.jsx";
+import Grandpa from "./components/Grandpa/Grandpa.jsx";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
         loader: () => fetch("tshirts.json"),
       },
       { path: "/order", element: <Order></Order> },
+      { path: "/grandpa", element: <Grandpa></Grandpa> },
       { path: "/inventory", element: <Inventory></Inventory> },
       { path: "/login", element: <LoginPage></LoginPage> },
     ],
