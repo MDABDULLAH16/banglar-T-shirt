@@ -1,0 +1,13 @@
+.t-shirt img {
+  height: 300px;
+  border-radius: 10px;
+  width: 100%;
+}
+.t-shirt {
+  border: 1px solid lightblue;
+  padding: 10px;
+  border-radius: 15px;
+}
+.btn-addToCart {
+  width: 100%;
+}
